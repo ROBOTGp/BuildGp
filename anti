@@ -9,3 +9,12 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
   
+
+git clone http://github.com/creedsteam/creed
+cd creed
+chmod +x launch.sh
+./launch.sh install
+
+case CODE_message_media_unsupported:
+M->type = tgl_message_media_unsupported;
+break; 
